@@ -1,0 +1,148 @@
+/* Tag Selectors */
+a {
+    color: #11999E;
+    text-decoration: none;
+    font-family: 'Gabarito', sans-serif;
+
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    color: #66BFBF;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #11999E;
+    font-size: 1.75rem;
+}
+
+h2, h3 {
+    font-family: 'Gabarito', sans-serif;
+}
+
+hr {
+    width: 10%;
+    border: 5px dotted;
+    border-top: none;
+    margin: 50px auto;
+    color: grey;
+}
+
+p {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #40514E;
+}
+
+/* Class Selectors */
+.btn {
+    background: #3498db;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: 'Gabarito', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+}
+
+.middle-container {
+    
+}
+.bottom-container {
+    margin: 50px auto 0 auto;
+    background-color: #66BFBF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.contact-me {
+    line-height: 1.5;
+    width: 50%;
+    margin: auto;
+}
+
+.footer-text {
+    color: white;
+}
+
+.top-cloud {
+    position: relative;
+    left: 200px;
+}
+.bot-cloud {
+    position: absolute;
+}
+
+.person-img {
+    width: 20%;
+    height: 20%;
+    margin: 30px auto 0 auto;
+}
+
+.skill-content {
+    line-height: 2;
+}
+
+.skill-img-left {
+    height: 25%;
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 20px;
+
+}
+
+.skill-img-right {
+    height: 25%;
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-row {
+    width: 50%;
+    display: inline-block;
+    margin: 50px auto 0 auto;
+    text-align: left;
+}
+
+.status-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+/* ID Selectors */
+
+#title {
+    color: #66BFBF;
+    margin-top: 0;
+    font-size: 3.5rem;
+    font-family: 'Sofia', cursive;
+}
